@@ -16,6 +16,40 @@ The API expects a JSON object with a single key, `data`, which holds an array of
   "data": ["a", "1", "334", "4", "R", "$"]
 }
 ```
+## How to Test 🧪
+
+You can test the live endpoint using the `curl` command in your terminal.
+
+### macOS / Linux
+
+```bash
+curl -X POST \
+  https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/\
+  -H 'Content-Type: application/json' \
+  -d '{
+    "data": ["a", "1", "334", "4", "R", "$"]
+  }' | jq
+```
+
+### Windows (Command Prompt)
+
+```cmd
+curl -X https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/ -H "Content-Type: application/json" -d "{ \"data\": [\"a\", \"1\", \"334\", \"4\", \"R\", \"$\"] }"
+```
+
+---
+
+## Request & Response Examples
+
+### Request Body
+
+The API expects a JSON object with a single key, `data`, which holds an array of strings.
+
+```json
+{
+  "data": ["a", "1", "334", "4", "R", "$"]
+}
+```
 
 ### Success Response
 
