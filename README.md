@@ -5,7 +5,7 @@ This is a REST API built for a hiring challenge. It processes an array of data a
 ## API Endpoint
 
 - **Method:** `POST`
-- **URL:** https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/ 
+- **URL:** https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/bfhl
 
 ### Request Body
 
@@ -24,7 +24,7 @@ You can test the live endpoint using the `curl` command in your terminal.
 
 ```bash
 curl -X POST \
-  https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/\
+  https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/bfhl\
   -H 'Content-Type: application/json' \
   -d '{
     "data": ["a", "1", "334", "4", "R", "$"]
@@ -34,7 +34,7 @@ curl -X POST \
 ### Windows (Command Prompt)
 
 ```cmd
-curl -X https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/ -H "Content-Type: application/json" -d "{ \"data\": [\"a\", \"1\", \"334\", \"4\", \"R\", \"$\"] }"
+curl -X https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/bfhl -H "Content-Type: application/json" -d "{ \"data\": [\"a\", \"1\", \"334\", \"4\", \"R\", \"$\"] }"
 ```
 
 ---
