@@ -1,7 +1,7 @@
 # Bajaj Finserv HL-Task API
 
 This is a REST API built for a hiring challenge. It processes an array of data and returns classified information based on the input.
- 
+  
 ## API Endpoint
 
 - **Method:** `POST`
