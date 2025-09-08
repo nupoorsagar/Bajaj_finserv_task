@@ -5,7 +5,7 @@ This is a REST API built for a hiring challenge. It processes an array of data a
 ## API Endpoint
 
 - **Method:** `POST`
-- **URL:** https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/bfhl
+- **URL:** https://bajaj-finserv-task-ooq35ne9l-nupoors-projects-7286f529.vercel.app/bfhl 
 
 ### Request Body
 
